@@ -1,0 +1,23 @@
+.sobre-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.foto-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.foto {
+    width: 250px;
+    border-radius: 50% 54% 46% 41% / 50% 42% 58% 49%;
+    position: relative;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+}
+
+
+.sobre-text {
+    padding: 20px;
+}
