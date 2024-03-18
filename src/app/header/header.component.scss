@@ -1,0 +1,79 @@
+.header {
+    background-color: #7b00ff;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    font-size: 5em;
+}
+
+@media (max-width: 768px) {
+    nav {
+        gap: 80px;
+        /* Ajuste o espaçamento conforme necessário para telas menores */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    nav {
+        gap: 80px;
+        /* Ajuste o espaçamento conforme necessário para telas médias */
+    }
+}
+
+@media (min-width: 993px) {
+    nav {
+        gap: 150px;
+        /* Espaçamento padrão para telas maiores */
+    }
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+
+    &:hover {
+        text-decoration: underline;
+        color: #000000;
+    }
+
+    &:first-child {
+        margin-left: 0;
+    }
+}
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 768px) {
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-link {
+        margin-bottom: 10px;
+        /* Adiciona espaço entre os links em telas menores */
+    }
+}
+
+/* Estilos para dispositivos maiores */
+@media only screen and (min-width: 769px) {
+    nav {
+        display: flex;
+        align-items: center;
+        gap: 200px;
+        font-size: 5em;
+    }
+}
