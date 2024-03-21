@@ -1,12 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-projeto',
-  standalone: true,
-  imports: [],
   templateUrl: './projeto.component.html',
-  styleUrl: './projeto.component.scss'
+  styleUrls: ['./projeto.component.scss']
 })
 export class ProjetoComponent {
+  @Input() projeto: any;
 
+  constructor() { }
 }
