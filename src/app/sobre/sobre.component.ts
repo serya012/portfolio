@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './sobre.component.scss'
 })
 export class SobreComponent {
-  nome: string = 'Tarcisio Ayres'
+  nome: string = 'Tarcisio'
 
 }
