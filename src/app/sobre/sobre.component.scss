@@ -1,6 +1,11 @@
 .sobre-container {
     position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 30px;
 }
 
 .foto-wrapper {
@@ -8,14 +13,46 @@
     display: inline-block;
 }
 
+@keyframes changeProperties {
+
+    0%,
+    10% {
+        border-radius: 50% 54% 46% 41% / 50% 42% 58% 49%;
+    }
+
+    20%,
+    30% {
+        border-radius: 60% 45% 35% 60% / 40% 50% 60% 55%;
+    }
+
+    40%,
+    50% {
+        border-radius: 40% 60% 50% 45% / 50% 45% 65% 55%;
+    }
+
+    60%,
+    70% {
+        border-radius: 55% 50% 45% 55% / 50% 55% 60% 50%;
+    }
+
+    80%,
+    90%,
+    100% {
+        border-radius: 50% 54% 46% 41% / 50% 42% 58% 49%;
+    }
+}
+
 .foto {
     width: 250px;
-    border-radius: 50% 54% 46% 41% / 50% 42% 58% 49%;
+    /* Adiciona uma borda inicial */
     position: relative;
     user-select: none;
     -webkit-user-drag: none;
     -webkit-touch-callout: none;
+    animation: changeProperties 5s infinite alternate ease-in-out;
+    /* Aplica a animação */
 }
+
 
 
 .sobre-text {
