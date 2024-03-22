@@ -35,7 +35,8 @@
     }
 
     50% {
-        border-radius: 36% 90% 20% 80% / 40% 60% 30% 70%; /* Forma mais deformada */
+        border-radius: 36% 90% 20% 80% / 40% 60% 30% 70%;
+        /* Forma mais deformada */
     }
 
     60% {
@@ -51,7 +52,8 @@
     }
 
     90% {
-        border-radius: 26% 62% 31% 42% / 9% 31% 38% 4%; /* Forma mais deformada */
+        border-radius: 26% 62% 31% 42% / 9% 31% 38% 4%;
+        /* Forma mais deformada */
     }
 
     100% {
@@ -82,4 +84,51 @@
 
 p {
     text-align: justify;
+    margin-left: 300px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Margens e padding 
+.classe {
+    margin-top: 10px;            (Margem superior) 
+    margin-bottom: 10px;         (Margem inferior) 
+    margin-left: 20px;           (Margem à esquerda) 
+    margin-right: 20px;          (Margem à direita) 
+    padding-top: 10px;           (Padding superior) 
+    padding-bottom: 10px;        (Padding inferior) 
+    padding-left: 20px;          (Padding à esquerda) 
+    padding-right: 20px;         (Padding à direita) 
+}
+
+ Espaçamento entre linhas 
+
+.classe {
+    line-height: 1.5;           (Espaçamento entre linhas) 
+}
+
+ Espaçamento entre letras
+
+.classe {
+    letter-spacing: 1px;        (Espaçamento entre letras) 
+}
+
+ Espaçamento entre palavras
+
+.classe {
+    word-spacing: 2px;          (Espaçamento entre palavras) 
+}
+
+*/
