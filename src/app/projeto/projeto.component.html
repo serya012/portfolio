@@ -1,5 +1,9 @@
-<div class="projeto">
-    <h2>{{ projeto.titulo }}</h2>
-    <p>{{ projeto.descricao }}</p>
+<div class="portfolio">
+  <div class="project" *ngFor="let project of projects">
+    <img [src]="project.imageUrl" alt="{{ project.name }}">
+    <div class="overlay">
+      <h3>{{ project.name }}</h3>
+      <p>{{ project.description }}</p>
+    </div>
   </div>
-  
+</div>
