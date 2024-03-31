@@ -10,7 +10,7 @@ export class PortfolioComponent {
     {
       name: 'Projeto 1',
       description: 'Descrição do Projeto 1',
-      imageUrl: 'caminho_para_sua_imagem_projeto_1.jpg'
+      imageUrl: './assets/relogio_digital.jpg' // Ajuste o caminho da imagem aqui
     },
     {
       name: 'Projeto 2',
