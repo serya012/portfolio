@@ -1,34 +1,64 @@
 {
-  "hash": "1c9a3f02",
-  "configHash": "e9698960",
-  "lockfileHash": "2580c884",
-  "browserHash": "7ba9187c",
+  "hash": "9e0cd727",
+  "configHash": "196b7142",
+  "lockfileHash": "3778b02c",
+  "browserHash": "e665ae5e",
   "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "04577ad5",
+      "needsInterop": false
+    },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "c9b746e9",
+      "fileHash": "ee0c8e1f",
+      "needsInterop": false
+    },
+    "@angular/material/card": {
+      "src": "../../../../../node_modules/@angular/material/fesm2022/card.mjs",
+      "file": "@angular_material_card.js",
+      "fileHash": "06153403",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "d1da2008",
+      "fileHash": "73107359",
+      "needsInterop": false
+    },
+    "@angular/platform-browser/animations/async": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/animations/async.mjs",
+      "file": "@angular_platform-browser_animations_async.js",
+      "fileHash": "7cc41c6a",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "344836e9",
+      "fileHash": "2094fe41",
+      "needsInterop": false
+    },
+    "ngx-slick-carousel": {
+      "src": "../../../../../node_modules/ngx-slick-carousel/fesm2022/ngx-slick-carousel.mjs",
+      "file": "ngx-slick-carousel.js",
+      "fileHash": "7882a040",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-NKRQVUSQ": {
-      "file": "chunk-NKRQVUSQ.js"
+    "chunk-VOVB5XEC": {
+      "file": "chunk-VOVB5XEC.js"
     },
-    "chunk-QT62IOSF": {
-      "file": "chunk-QT62IOSF.js"
+    "browser-7XG3PVOY": {
+      "file": "browser-7XG3PVOY.js"
+    },
+    "chunk-35ZXI6PJ": {
+      "file": "chunk-35ZXI6PJ.js"
+    },
+    "chunk-32NFETCT": {
+      "file": "chunk-32NFETCT.js"
     }
   }
 }
