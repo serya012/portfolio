@@ -1,19 +1,18 @@
 <ngx-slick-carousel class="carousel" [config]="slideConfig">
-    <div ngxSlickItem *ngFor="let chunk of chunkedProjects" class="grid-container">
-      <div *ngFor="let project of chunk" class="slide">
-        <a [href]="project.projectUrl" target="_blank">
-          <mat-card>
-            <img mat-card-image [src]="project.imageUrl" alt="{{ project.name }}">
-            <mat-card-header>
-              <mat-card-title>{{ project.name }}</mat-card-title>
-              <mat-card-subtitle>{{ project.description }}</mat-card-subtitle>
-            </mat-card-header>
-            <mat-card-content>
-              <p>{{ project.details }}</p>
-            </mat-card-content>
-          </mat-card>
-        </a>
-      </div>
+  <div ngxSlickItem *ngFor="let chunk of chunkedProjects" class="grid-container">
+    <div *ngFor="let project of chunk" class="slide">
+      <a [href]="project.projectUrl" target="_blank">
+        <mat-card>
+          <img mat-card-image [src]="project.imageUrl" alt="{{ project.name }}">
+          <mat-card-header>
+            <mat-card-title>{{ project.name }}</mat-card-title>
+            <mat-card-subtitle>{{ project.description }}</mat-card-subtitle>
+          </mat-card-header>
+          <mat-card-content>
+            <p>{{ project.details }}</p>
+          </mat-card-content>
+        </mat-card>
+      </a>
     </div>
-  </ngx-slick-carousel>
-  
+  </div>
+</ngx-slick-carousel>

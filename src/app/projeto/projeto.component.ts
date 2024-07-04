@@ -14,9 +14,9 @@ export class ProjetoComponent implements OnInit {
   projects = [
     {
       name: 'Relógio Digital',
-      description: 'Descrição do Projeto 1',
+      description: 'Relógio digital com fundo personalizavel',
       details: 'Mais detalhes sobre o Projeto 1',
-      imageUrl: 'assets/photo01.jpg',
+      imageUrl: 'assets/timer_digital.jpeg',
       projectUrl: 'https://serya012.github.io/relogio/'
     },
     {

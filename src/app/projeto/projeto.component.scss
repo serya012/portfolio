@@ -1,33 +1,60 @@
 .carousel {
-    margin: 20px;
-  
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(5, 1fr);
-      gap: 20px;
+  margin: 20px;
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+
+  .slide {
+    padding: 10px;
+
+    a {
+      text-decoration: none;
+      color: inherit;
     }
-  
-    .slide {
-      padding: 10px;
-  
-      a {
-        text-decoration: none;
-        color: inherit;
-      }
-  
-      mat-card {
-        width: 100%;
-        transition: transform 0.2s;
-      }
-  
-      mat-card:hover {
-        transform: scale(1.05);
-      }
-  
-      img {
-        max-height: 200px;
-        object-fit: cover;
-      }
+
+    mat-card {
+      width: 100%;
+      height: 300px; /* Defina uma altura fixa para tornar o card quadrado */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.5s;
+    }
+
+    mat-card:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      height: 50%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .mat-card-header {
+      height: 50px; /* Ajuste conforme necessário */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .mat-card-title {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .mat-card-content {
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
   }
-  
+}
